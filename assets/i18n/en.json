@@ -1,0 +1,1338 @@
+{
+  "BRAND": { "NAME": "CoachFlow" },
+  "NAV": { "HOME": "Home", "ABOUT": "About", "TRANSFORMATIONS": "Results", "PLANS": "Programs", "CALCULATOR": "Calories", "CONTACT": "Contact", "LANGUAGE": "Language", "TOGGLE_MENU": "Toggle navigation", "CLOSE_MENU": "Close menu", "ENGLISH_SHORT": "EN", "ARABIC_SHORT": "AR" },
+  "CTA": { "START": "Start your journey", "EXPLORE_PLANS": "Explore coaching", "MEET_COACH": "Meet your coach", "LEARN_MORE": "Learn more", "VIEW_RESULTS": "View results", "VIEW_PLAN": "View plan" },
+  "FOOTER": { "DESCRIPTION": "A focused online coaching experience built around sustainable progress.", "EXPLORE": "Explore", "CONNECT": "Connect", "INSTAGRAM": "Instagram", "EMAIL": "Email us", "CTA_TEXT": "Ready to make your next move?", "RIGHTS": "All rights reserved.", "PRIVACY": "Privacy", "TERMS": "Terms" },
+  "COMMON": { "COMING_SOON": "This page is being prepared.", "BACK_HOME": "Back home", "TO_TOP": "Top", "WHATSAPP": "WhatsApp" },
+  "CREDIT": { "MADE_WITH": "Made with", "BY": "by", "ACME_CODE": "Acme Code" },
+  "CALORIE_CALCULATOR": {
+    "SEO": {
+      "TITLE": "Calculate Your Daily Calories | Calorie and Macro Calculator",
+      "DESCRIPTION": "Estimate your daily calories and macros from age, height, weight, activity level, and goal. A free starting point, not medical advice."
+    },
+    "INTRO": {
+      "EYEBROW": "Free fitness tool",
+      "TITLE": "Calculate Your Calories",
+      "LEAD": "Get an estimated daily calorie and macro target based on your body, activity, and goal. Then, if you want a real plan, the coach can take it from there.",
+      "START": "Start the calculator"
+    },
+    "STEPS": {
+      "ARIA": "Calculator steps",
+      "LEAD": "A few details. A clear estimate. No account required.",
+      "1": "Basic info",
+      "2": "Body",
+      "3": "Activity",
+      "4": "Goal",
+      "BASIC_HEADING": "Your details",
+      "BODY_HEADING": "Your body",
+      "ACTIVITY_HEADING": "Your activity",
+      "GOAL_HEADING": "Your goal",
+      "BACK": "Back",
+      "NEXT": "Continue",
+      "SEE_RESULTS": "See my estimate"
+    },
+    "GENDER": {
+      "LABEL": "Gender",
+      "LEAD": "This is used only for the Mifflin-St Jeor estimate.",
+      "MALE": "Male",
+      "FEMALE": "Female"
+    },
+    "AGE": {
+      "LABEL": "Age",
+      "PLACEHOLDER": "Years"
+    },
+    "HEIGHT": {
+      "LABEL": "Height (cm)",
+      "PLACEHOLDER": "cm"
+    },
+    "WEIGHT": {
+      "LABEL": "Weight (kg)",
+      "PLACEHOLDER": "kg"
+    },
+    "ACTIVITY": {
+      "LABEL": "Activity level",
+      "LEAD": "Choose the description that most closely matches your week.",
+      "YOUR_LEVEL": "Your activity level:",
+      "INCLUDED": "Your activity level is included in the estimate of your daily energy needs.",
+      "SEDENTARY": {
+        "TITLE": "Sedentary",
+        "TEXT": "Little or no exercise.",
+        "EXAMPLE": "Desk work, short walks, mostly sitting."
+      },
+      "LIGHT": {
+        "TITLE": "Lightly active",
+        "TEXT": "Light exercise 1–3 days a week.",
+        "EXAMPLE": "Easy gym sessions or recreational walks."
+      },
+      "MODERATE": {
+        "TITLE": "Moderately active",
+        "TEXT": "Moderate exercise 3–5 days a week.",
+        "EXAMPLE": "Regular training most weekdays."
+      },
+      "VERY": {
+        "TITLE": "Very active",
+        "TEXT": "Hard exercise 6–7 days a week.",
+        "EXAMPLE": "Daily training or a physically demanding job."
+      },
+      "EXTREME": {
+        "TITLE": "Extremely active",
+        "TEXT": "Very intense training or a physically demanding lifestyle.",
+        "EXAMPLE": "Two-a-day sessions or heavy manual work."
+      }
+    },
+    "GOAL": {
+      "LABEL": "Goal",
+      "LEAD": "Your target is a conservative estimate, not a promise.",
+      "LOSE": {
+        "TITLE": "Lose weight",
+        "TEXT": "Create a sustainable calorie deficit to support gradual fat loss."
+      },
+      "MAINTAIN": {
+        "TITLE": "Maintain weight",
+        "TEXT": "Keep your current body weight with an estimated maintenance intake."
+      },
+      "GAIN": {
+        "TITLE": "Gain weight",
+        "TEXT": "Use a controlled calorie surplus to support weight and muscle gain."
+      }
+    },
+    "RESULT": {
+      "READY": "Your results are ready.",
+      "TITLE": "Your personalized calorie estimate",
+      "LEAD": "Based on the information you provided, here is your estimated daily target.",
+      "SUMMARY_TITLE": "Daily summary",
+      "METABOLISM": "Your metabolism",
+      "INSIGHT_TITLE": "What this means",
+      "RECALCULATE": "Recalculate",
+      "SHARE": "Share results",
+      "SHARE_TEXT": "My estimated daily target is {{calories}} kcal, with {{protein}}g protein, {{carbs}}g carbs, and {{fat}}g fat.",
+      "INSIGHT": {
+        "LOSE": "Your estimated target is below your maintenance calories, creating a moderate calorie deficit.",
+        "MAINTAIN": "Your target is close to your estimated maintenance needs.",
+        "GAIN": "Your target provides a controlled calorie surplus to support gradual weight gain."
+      }
+    },
+    "BMR": {
+      "SECTION": "BMR",
+      "TEXT": "Estimated calories your body needs at rest."
+    },
+    "TDEE": {
+      "SECTION": "TDEE",
+      "SHORT": "Estimated maintenance",
+      "TEXT": "Estimated daily calorie needs including your activity."
+    },
+    "CALORIES": {
+      "UNIT": "kcal / day",
+      "KCAL": "kcal",
+      "CAPTION": "Estimated calories to support your selected goal.",
+      "COMPARE_TITLE": "Target vs maintenance",
+      "TARGET": "Your target",
+      "TARGET_TEXT": "Estimated target based on your selected goal.",
+      "DIFFERENCE": "Difference",
+      "DAILY": "Daily calories"
+    },
+    "MACROS": {
+      "TITLE": "Your daily macro estimate",
+      "LEAD": "These splits are estimates. They are designed to add up to your calorie target.",
+      "PROTEIN": "Protein",
+      "CARBS": "Carbohydrates",
+      "FAT": "Fats",
+      "PROTEIN_TEXT": "Supports muscle maintenance and recovery.",
+      "CARBS_TEXT": "Your main source of training energy.",
+      "FAT_TEXT": "Important for overall health and hormone function.",
+      "FROM": "{{kcal}} kcal"
+    },
+    "CTA": {
+      "TITLE": "Ready to start your journey?",
+      "LEAD": "The numbers are only a starting point. Get a personalized training and nutrition plan with ongoing support from {{coach}}.",
+      "PRIMARY": "Subscribe now",
+      "SECONDARY_TITLE": "Not sure where to start?",
+      "SECONDARY_LEAD": "Explore coaching options shaped around your goal and your data.",
+      "SECONDARY": "Explore programs"
+    },
+    "DISCLAIMER": "These results are educational estimates, not medical advice or a substitute for a personal assessment. Actual calorie needs can vary.",
+    "VALIDATION": {
+      "GENDER": "Choose male or female.",
+      "AGE": "Enter an age between {{min}} and {{max}}.",
+      "HEIGHT": "Enter a height between {{min}} and {{max}} cm.",
+      "WEIGHT": "Enter a weight between {{min}} and {{max}} kg.",
+      "ACTIVITY": "Choose the activity level that fits your week.",
+      "GOAL": "Choose a goal to continue."
+    }
+  },
+  "ABOUT": {
+    "SEO": {
+      "TITLE": "About Mohamed Essam | Online Fitness Coach",
+      "DESCRIPTION": "Meet Mohamed Essam, an online fitness coach focused on personalized training, practical nutrition, and follow-up you can actually keep."
+    },
+    "COACH": {
+      "NAME": "Mohamed Essam",
+      "TITLE": "Online Fitness Coach",
+      "SHORT": "Captain Mohamed Essam"
+    },
+    "HERO": {
+      "EYEBROW": "Personal coaching",
+      "TITLE_START": "You won't just train.",
+      "TITLE_EMPHASIS": "You'll learn how to build a body you can keep.",
+      "LEAD": "Personalized training, practical nutrition, and honest follow-up — built around your life, not a template.",
+      "PRIMARY": "Start your journey",
+      "SECONDARY": "See the programs",
+      "CHIP_ONLINE": "Online coaching",
+      "CHIP_PLANS": "Personalized plans",
+      "CHIP_FOLLOWUP": "Daily follow-up"
+    },
+    "INTRO": {
+      "EYEBROW": "The coach",
+      "TITLE": "Who is Captain Mohamed Essam?",
+      "P1": "Mohamed Essam is an online fitness coach who works with people who want a clearer path: training that fits their level, nutrition they can live with, and someone who stays with them after the plan is written.",
+      "P2": "The work is not a generic program. It is a personal system — built around the goal, the schedule, and the ability to stay consistent.",
+      "P3": "Online coaching is the format because the plan should travel with you. The gym can change. The method should not disappear."
+    },
+    "STORY": {
+      "EYEBROW": "The path",
+      "TITLE": "The journey started here",
+      "LEAD": "Not as a slogan. As a way of working.",
+      "ONE": {
+        "TITLE": "Take the work seriously",
+        "TEXT": "Fitness is treated as a craft: clear training, honest nutrition, and a standard you can repeat."
+      },
+      "TWO": {
+        "TITLE": "Make it personal",
+        "TEXT": "The plan is shaped around the person — their goal, their time, and what they can actually commit to."
+      },
+      "THREE": {
+        "TITLE": "Stay in the process",
+        "TEXT": "The value is not a file you receive once. It is follow-up, adjustment, and the discipline to keep going."
+      }
+    },
+    "PHILOSOPHY": {
+      "EYEBROW": "The method",
+      "TITLE": "My coaching philosophy",
+      "LEAD": "No one-size-fits-all plans. No extremes that collapse after two weeks.",
+      "FIT": {
+        "TITLE": "Training that fits you",
+        "TEXT": "Your program is built around your goal, your level, and how consistently you can show up."
+      },
+      "NUTRITION": {
+        "TITLE": "Nutrition without the noise",
+        "TEXT": "A practical way of eating you can live with — not a temporary system you abandon."
+      },
+      "FOLLOWUP": {
+        "TITLE": "Ongoing follow-up",
+        "TEXT": "You do not just receive a plan and leave. There is review, adjustment, and accountability as you progress."
+      },
+      "CONSISTENCY": {
+        "TITLE": "Consistency over spikes",
+        "TEXT": "The aim is not a fast result that disappears. It is a body and a routine you can maintain."
+      }
+    },
+    "VALUES": {
+      "EYEBROW": "The standard",
+      "TITLE": "The principles I work by",
+      "REALISM": "Realism",
+      "CONSISTENCY": "Consistency",
+      "COMMITMENT": "Commitment",
+      "PERSONALIZATION": "Personalization",
+      "FOLLOWUP": "Follow-up"
+    },
+    "ONLINE_COACHING": {
+      "EYEBROW": "The format",
+      "TITLE": "Why online coaching?",
+      "LEAD": "Because a useful plan has to work in your actual week — not only in a perfect gym schedule.",
+      "PLAN": {
+        "TITLE": "A plan built for you",
+        "TEXT": "Training and nutrition shaped around your goal and your capacity."
+      },
+      "ANYWHERE": {
+        "TITLE": "Train where you are",
+        "TEXT": "The coaching stays with you, whether you train at home or in a gym."
+      },
+      "NUTRITION": {
+        "TITLE": "Nutrition you can follow",
+        "TEXT": "Guidance that respects your life, not a rigid script."
+      },
+      "TRACKING": {
+        "TITLE": "Progress you can see",
+        "TEXT": "Check-ins that turn effort into useful decisions."
+      },
+      "FOLLOWUP": {
+        "TITLE": "Someone in your corner",
+        "TEXT": "Continuous follow-up so the plan does not stall when life gets busy."
+      },
+      "ADJUST": {
+        "TITLE": "Adjust as you go",
+        "TEXT": "The program can change when your progress, energy, or schedule changes."
+      }
+    },
+    "HOW_IT_WORKS": {
+      "EYEBROW": "The process",
+      "TITLE": "How coaching starts",
+      "LEAD": "A clear path from the first message to ongoing follow-up.",
+      "1": {
+        "TITLE": "Choose the right program",
+        "TEXT": "Pick the coaching option that matches the support you need."
+      },
+      "2": {
+        "TITLE": "Share your details",
+        "TEXT": "Send the information needed to start a proper assessment."
+      },
+      "3": {
+        "TITLE": "Receive your plan",
+        "TEXT": "Get a training and nutrition plan built around you."
+      },
+      "4": {
+        "TITLE": "Follow your progress",
+        "TEXT": "Stay in contact, review the work, and adjust with the coach."
+      },
+      "CTA": "See the programs"
+    },
+    "SERVICES": {
+      "EYEBROW": "The work",
+      "TITLE": "What coaching includes",
+      "LEAD": "The same pillars that already sit inside the coaching programs.",
+      "TRAINING": {
+        "TITLE": "Personalized training",
+        "TEXT": "A focused plan shaped around your ability, schedule, and goals."
+      },
+      "NUTRITION": {
+        "TITLE": "Nutrition guidance",
+        "TEXT": "Simple principles that work in the context of your day."
+      },
+      "TRACKING": {
+        "TITLE": "Progress tracking",
+        "TEXT": "Check-ins that turn effort into useful feedback."
+      },
+      "FOLLOWUP": {
+        "TITLE": "Ongoing follow-up",
+        "TEXT": "Direct coaching that keeps you moving when motivation dips."
+      }
+    },
+    "TRANSFORMATIONS": {
+      "EYEBROW": "The proof",
+      "TITLE": "Results matter more than talk",
+      "LEAD": "A few client transformations. The rest live on the results page.",
+      "CTA": "See all results"
+    },
+    "BRAND": {
+      "EYEBROW": "The standard",
+      "TITLE": "The goal is not to start strong.",
+      "EMPHASIS": "The goal is to know how to continue.",
+      "MARK": "ME"
+    },
+    "CTA": {
+      "EYEBROW": "Next step",
+      "TITLE": "Ready to start your journey?",
+      "LEAD": "You do not need a perfect plan. You need a plan that fits you — and that you can keep.",
+      "PRIMARY": "Start with me",
+      "SECONDARY": "Calculate your calories free"
+    },
+    "ALT": {
+      "HERO": "Mohamed Essam, online fitness coach, photographed in the gym",
+      "INTRO": "Mohamed Essam during a focused training session",
+      "STORY": "Mohamed Essam training in the gym",
+      "BRAND": "Mohamed Essam brand portrait",
+      "LOGO": "Mohamed Essam logo"
+    }
+  },
+  "HOME": {
+    "SEO": {
+      "TITLE": "Mohamed Essam | Online Fitness Coach",
+      "DESCRIPTION": "Personalized training and nutrition coaching from Mohamed Essam. Build a body you can keep — with a plan that fits your life and follow-up that keeps you going."
+    },
+    "HERO": {
+      "EYEBROW": "Online Fitness Coach",
+      "NAME": "Mohamed Essam",
+      "TITLE_START": "Build your body",
+      "TITLE_EMPHASIS": "in a way you can keep going.",
+      "DESCRIPTION": "Personalized training and nutrition plans, ongoing follow-up, and guidance that fits your goal and your level.",
+      "TRUST": "Your plan is built around your goal, your level, and your actual routine.",
+      "PRIMARY": "Start your journey",
+      "SECONDARY": "Calculate your calories free",
+      "CHIP_TRAINING": "Personalized training",
+      "CHIP_NUTRITION": "Nutrition guidance",
+      "CHIP_FOLLOWUP": "Ongoing follow-up",
+      "ALT": "Mohamed Essam, online fitness coach"
+    },
+    "BENEFITS": {
+      "TRAINING": { "TITLE": "Personalized training", "TEXT": "A program shaped around your goal and level." },
+      "NUTRITION": { "TITLE": "Nutrition plans", "TEXT": "Practical guidance you can actually follow." },
+      "FOLLOWUP": { "TITLE": "Ongoing follow-up", "TEXT": "Someone stays with you after the plan is written." },
+      "TRACKING": { "TITLE": "Progress tracking", "TEXT": "Check-ins that turn effort into clear next steps." }
+    },
+    "ABOUT": {
+      "EYEBROW": "The coach",
+      "TITLE": "Who is Captain Mohamed Essam?",
+      "LEAD": "An online fitness coach who builds training and nutrition around the person — not a template.",
+      "TEXT": "If you want a body you can maintain, with honest follow-up and a plan that fits real life, this is the work.",
+      "CTA": "Learn more about the coach",
+      "ALT": "Mohamed Essam during a training session"
+    },
+    "PHILOSOPHY": {
+      "EYEBROW": "The method",
+      "TITLE": "The goal is not to start.",
+      "EMPHASIS": "The goal is to know how to continue.",
+      "LEAD": "Every body has its conditions. Every person has a different goal. That is why one plan cannot work for everyone.",
+      "PERSONAL": { "TITLE": "Personalization", "TEXT": "Your program is built around you — your goal, your time, and what you can commit to." },
+      "CONSISTENCY": { "TITLE": "Consistency", "TEXT": "Sustainable work beats extremes that collapse after two weeks." },
+      "NUTRITION": { "TITLE": "Nutrition you can live with", "TEXT": "A practical way of eating, not a temporary system." },
+      "ACCOUNTABILITY": { "TITLE": "Accountability", "TEXT": "Follow-up and adjustments so the plan does not stall when life gets busy." }
+    },
+    "HOW_IT_WORKS": {
+      "EYEBROW": "The process",
+      "TITLE": "How online coaching works",
+      "LEAD": "A clear path from the first choice to ongoing follow-up.",
+      "1": { "TITLE": "Choose the program", "TEXT": "Pick the coaching option that matches the support you need." },
+      "2": { "TITLE": "Share your details", "TEXT": "Send the information needed to start a proper assessment." },
+      "3": { "TITLE": "Receive your plan", "TEXT": "Get training and nutrition built around you." },
+      "4": { "TITLE": "Follow your progress", "TEXT": "Stay in contact, review the work, and adjust with the coach." },
+      "CTA": "See the programs"
+    },
+    "TRANSFORMATIONS": {
+      "EYEBROW": "Proof",
+      "TITLE": "The result speaks",
+      "LEAD": "Real training journeys. A few here — the rest on the results page.",
+      "CTA": "See all results",
+      "LOADING": "Loading results..."
+    },
+    "SERVICES": {
+      "EYEBROW": "What you get",
+      "TITLE": "What is included?",
+      "LEAD": "The same pillars inside the coaching programs.",
+      "TRAINING": { "TITLE": "Personalized training plan", "TEXT": "A program that fits your goal and your level." },
+      "NUTRITION": { "TITLE": "Nutrition guidance", "TEXT": "Practical direction that helps you stay consistent." },
+      "TRACKING": { "TITLE": "Progress tracking", "TEXT": "Ongoing follow-up so you can see what is working." },
+      "ADJUST": { "TITLE": "Plan adjustments", "TEXT": "The plan can change as your results and routine change." }
+    },
+    "PLANS": {
+      "EYEBROW": "Programs",
+      "TITLE": "Choose the support that fits you",
+      "LEAD": "Active coaching options. Full details live on the programs page.",
+      "CTA": "Subscribe now",
+      "DETAILS": "View details",
+      "LOADING": "Loading programs...",
+      "FEATURED": "Most chosen",
+      "DURATION": "Duration"
+    },
+    "CALORIE_CALCULATOR": {
+      "EYEBROW": "Free tool",
+      "TITLE": "Not sure where to start?",
+      "LEAD": "Estimate your daily calories and macros for free — then choose a plan if you want a real coaching system.",
+      "CTA": "Calculate your calories free",
+      "ALT": "Mohamed Essam training in the gym"
+    },
+    "FINAL_CTA": {
+      "EYEBROW": "Next step",
+      "TITLE": "Ready to start your journey?",
+      "LEAD": "The numbers are only a starting point. The real step is a plan that fits you — and that you can keep.",
+      "PRIMARY": "Start your journey",
+      "SECONDARY": "Calculate your calories free"
+    }
+  },
+  "AUTH": {
+    "LOGIN": {
+      "EYEBROW": "Admin access",
+      "TITLE": "Command the dashboard.",
+      "SUBTITLE": "Sign in with your coach email and password to manage the public website.",
+      "EMAIL": "Email",
+      "EMAIL_PLACEHOLDER": "admin@email.com",
+      "PASSWORD": "Password",
+      "PASSWORD_PLACEHOLDER": "Enter your password",
+      "SUBMIT": "Enter dashboard",
+      "SUBMITTING": "Signing in...",
+      "BACK_HOME": "Back to website",
+      "SHOW_PASSWORD": "Show password",
+      "HIDE_PASSWORD": "Hide password",
+      "ERROR_EMAIL": "Enter a valid email address.",
+      "ERROR_PASSWORD": "Password must be at least 6 characters.",
+      "ERROR_CREDENTIALS": "Email or password is incorrect.",
+      "ERROR_NOT_ALLOWED": "This account is not authorized to access the dashboard."
+    }
+  },
+  "DASHBOARD": {
+    "TITLE": "Dashboard",
+    "SUBTITLE": "Coach workspace",
+    "WORKSPACE": "Workspace",
+    "LOGOUT": "Sign out",
+    "VIEW_SITE": "View website",
+    "OVERVIEW": {
+      "EYEBROW": "Today",
+      "TITLE": "Your coaching business at a glance.",
+      "LEAD": "Active clients, this month’s verified revenue, and the work that needs you now.",
+      "OPEN_REPORTS": "Open full reports",
+      "REVENUE_NOTE": "Verified payments this calendar month.",
+      "ATTENTION": "Needs attention",
+      "ATTENTION_PENDING": "{{count}} payment reviews waiting.",
+      "ATTENTION_EXPIRING": "{{count}} subscriptions expire within 7 days.",
+      "REVIEW": "Review now",
+      "VIEW_EXPIRING": "View expiring",
+      "RECENT": "Recent subscriptions",
+      "VIEW_ALL": "View all",
+      "EMPTY_RECENT": "No subscriptions yet. They will appear here as customers apply.",
+      "SHORTCUTS": "Quick actions",
+      "KPI": {
+        "ACTIVE": "Active subscriptions",
+        "TOTAL": "Total subscriptions",
+        "PLANS": "Plans",
+        "REVENUE": "Revenue this month",
+        "EXPIRING": "Expiring in 7 days",
+        "PENDING": "Pending reviews"
+      }
+    },
+    "NAV": {
+      "ARIA": "Dashboard navigation",
+      "MENU": "Open dashboard menu",
+      "OVERVIEW": "Overview",
+      "PROFILE": "Profile",
+      "SOCIAL": "Social media",
+      "PAYMENTS": "Payment methods",
+      "TRANSFORMATIONS": "Transformations",
+      "BRANDING": "Branding",
+      "PLANS": "Plans",
+      "SUBSCRIPTIONS": "Subscriptions",
+      "REPORTS": "Reports"
+    },
+    "SOCIAL": {
+      "EYEBROW": "Public website",
+      "TITLE": "Social media links",
+      "LEAD": "Add any platform you use. Only enabled links with a valid URL will appear on the website.",
+      "NAME": "Display name",
+      "NAME_PLACEHOLDER": "Website, Discord, or another platform",
+      "URL": "Profile URL",
+      "URL_PLACEHOLDER": "https://",
+      "ADD": "Add link",
+      "ADDING": "Adding...",
+      "SAVE": "Save",
+      "EDIT": "Edit",
+      "REMOVE": "Remove",
+      "DELETE": "Delete",
+      "CANCEL": "Cancel",
+      "VISIBLE": "Visible",
+      "HIDDEN": "Hidden",
+      "LOADING": "Loading your links...",
+      "EMPTY": "No social links yet. Choose a platform and add your first URL.",
+      "ADDED": "Link added.",
+      "UPDATED": "Link updated.",
+      "REMOVED": "Link removed.",
+      "DELETE_CONFIRM": "Remove this social link?",
+      "ERROR_EXISTS": "This platform is already added. Edit the existing card instead.",
+      "ERROR_URL": "Enter a valid URL.",
+      "ERROR_NAME": "Enter a name for the custom link.",
+      "ERROR_SAVE": "Could not save right now. Try again.",
+      "PREVIEW_TITLE": "Website preview",
+      "PREVIEW_LEAD": "These icons will appear publicly.",
+      "PREVIEW_EMPTY": "Nothing visible yet.",
+      "PLATFORMS": {
+        "INSTAGRAM": "Instagram",
+        "FACEBOOK": "Facebook",
+        "TIKTOK": "TikTok",
+        "YOUTUBE": "YouTube",
+        "WHATSAPP": "WhatsApp",
+        "TELEGRAM": "Telegram",
+        "X": "X",
+        "LINKEDIN": "LinkedIn",
+        "SNAPCHAT": "Snapchat",
+        "THREADS": "Threads",
+        "CUSTOM": "Custom"
+      }
+    },
+    "BRANDING": {
+      "EYEBROW": "Public website",
+      "TITLE": "Site identity",
+      "LEAD": "Pick a ready-made look, or build your own colors and fonts. The public website updates after you save.",
+      "HINT": "Changes preview instantly here. Save to publish them on the live site.",
+      "TEMPLATES": "Ready-made looks",
+      "TEMPLATES_LEAD": "Choose a template to start. You can still tweak anything afterward.",
+      "CUSTOM": "Your unique identity",
+      "CUSTOM_LEAD": "Adjust the four main colors, the page mood, and the fonts visitors will see.",
+      "CUSTOM_CARD": "Custom",
+      "CUSTOM_CARD_TEXT": "Build a look that is only yours.",
+      "PRIMARY": "Main color",
+      "SECONDARY": "Accent color",
+      "PAGE": "Page background",
+      "TEXT": "Text color",
+      "LIGHT": "Light site",
+      "DARK": "Dark site",
+      "HEADING_FONT": "Headings",
+      "BODY_FONT": "Body text",
+      "LOGO": "Logo",
+      "LOGO_HELP": "Upload a PNG or JPG. It is compressed automatically before saving.",
+      "LOGO_REMOVE": "Remove logo",
+      "LOGO_APPLIED": "Colors were suggested from your logo. Save to publish.",
+      "EXTRACTING": "Reading logo colors...",
+      "PREVIEW": "Live preview",
+      "PREVIEW_EYEBROW": "Online coaching",
+      "PREVIEW_TITLE": "Train with a look that feels like you.",
+      "PREVIEW_TEXT": "Buttons, headings, and page color follow the identity you choose.",
+      "PREVIEW_CTA": "Start now",
+      "SAVE": "Save identity",
+      "SAVING": "Saving...",
+      "SAVED": "Identity saved. The public website now uses it.",
+      "RESET_ACTION": "Reset to default",
+      "RESET_DONE": "Identity reset to the default Gold Strength look.",
+      "ERROR_SAVE": "Could not save right now. Try again.",
+      "ERROR_LOGO": "Could not use that image. Try a PNG or JPG under 12 MB.",
+      "PRESETS": {
+        "GOLD": { "TITLE": "Gold Strength", "TEXT": "Warm gold on deep navy. Strong and premium." },
+        "OCEAN": { "TITLE": "Ocean Athlete", "TEXT": "Clean blue energy for a modern coaching brand." },
+        "EMBER": { "TITLE": "Ember", "TEXT": "Bold red heat for high-intensity training." },
+        "FOREST": { "TITLE": "Forest", "TEXT": "Calm green for sustainable, grounded progress." },
+        "MIDNIGHT": { "TITLE": "Midnight", "TEXT": "Dark studio look with sharp electric accents." },
+        "STUDIO": { "TITLE": "Studio Light", "TEXT": "Minimal black and white. Quiet and editorial." }
+      }
+    },
+    "PLANS": {
+      "EYEBROW": "Public website",
+      "TITLE": "Coaching plans",
+      "LEAD": "Create the products you sell. Each plan can include several prices and durations.",
+      "ADD": "Add plan",
+      "BACK": "Back to plans",
+      "CREATE_TITLE": "New plan",
+      "EDIT_TITLE": "Edit plan",
+      "EDITOR_LEAD": "Build the plan in short steps, then preview it as clients will see it.",
+      "SEARCH": "Search",
+      "SEARCH_PLACEHOLDER": "Search by name",
+      "FILTER_STATUS": "Status",
+      "FILTER_TYPE": "Type",
+      "SORT": "Sort",
+      "SORT_UPDATED": "Last updated",
+      "SORT_NAME": "Name",
+      "SORT_ORDER": "Display order",
+      "SORT_PRICE": "Starting price",
+      "LOADING": "Loading your plans...",
+      "EMPTY": "No plans yet. Create your first coaching plan.",
+      "SAVE": "Save plan",
+      "SAVING": "Saving...",
+      "SAVED": "Plan saved.",
+      "EDIT": "Edit",
+      "DUPLICATE": "Duplicate",
+      "PREVIEW": "Preview",
+      "ACTIVATE": "Activate",
+      "DEACTIVATE": "Deactivate",
+      "DELETE": "Remove",
+      "CANCEL": "Cancel",
+      "DONE": "Done",
+      "NEXT": "Next",
+      "PREVIOUS": "Back",
+      "COPY_SUFFIX": "Copy",
+      "DUPLICATED": "A copy was created and kept inactive.",
+      "DELETED": "Plan removed from the website. Records are kept for future subscriptions.",
+      "DELETE_CONFIRM": "Remove this plan from the public website? Existing subscription records will stay available.",
+      "ERROR_SAVE": "Could not save right now. Try again.",
+      "ERROR_IMAGE": "Could not use that image. Try a PNG or JPG under 12 MB.",
+      "FROM": "From {{price}} {{currency}}",
+      "DISCOUNT": "Save {{value}}%",
+      "POPULAR": "Most popular",
+      "POPULAR_OPTION": "Popular: {{price}} {{currency}}",
+      "OPTION_COUNT": "{{count}} pricing options",
+      "UPDATED": "Updated",
+      "PREVIEW_TITLE": "Public preview",
+      "PREVIEW_LEAD": "This is how the plan appears on the website.",
+      "PREVIEW_NO_PRICE": "Add an active price to show it here.",
+      "LIVE_PREVIEW": "Live preview",
+      "STEPS": {
+        "ARIA": "Plan builder steps",
+        "1": "Basics",
+        "2": "Features",
+        "3": "Pricing",
+        "4": "Display",
+        "5": "Preview"
+      },
+      "BASIC": {
+        "TITLE": "Basic information",
+        "LEAD": "Name the plan and explain what the client gets.",
+        "NAME": "Plan name",
+        "SLUG": "Web address",
+        "DESCRIPTION": "Short description",
+        "TYPE": "Plan type",
+        "IMAGE": "Cover image",
+        "IMAGE_HELP": "Optional. The image is compressed before saving.",
+        "IMAGE_REMOVE": "Remove image",
+        "UPLOADING": "Compressing image..."
+      },
+      "FEATURES": {
+        "TITLE": "Features",
+        "LEAD": "List what is included. Empty lines are ignored.",
+        "ADD": "Add feature",
+        "NAME": "Feature",
+        "PLACEHOLDER": "Personalized workout plan",
+        "EMPTY": "No features yet. Add the first one.",
+        "UP": "Up",
+        "DOWN": "Down",
+        "REMOVE": "Remove"
+      },
+      "PRICING": {
+        "TITLE": "Pricing options",
+        "LEAD": "One plan can have several durations and prices. Discount is calculated automatically.",
+        "ADD": "Add pricing option",
+        "EMPTY": "Add at least one price before publishing.",
+        "DURATION": "Duration",
+        "PRICE": "Price",
+        "COMPARE": "Compare-at price",
+        "CURRENCY": "Currency",
+        "BILLING": "Billing type",
+        "ACTIVE": "Visible on the website",
+        "POPULAR": "Most popular",
+        "DELETE_CONFIRM": "Remove this pricing option?"
+      },
+      "DISPLAY": {
+        "TITLE": "Display and marketing",
+        "LEAD": "Control how the plan appears on the public website.",
+        "ACTIVE": "Show this plan on the website",
+        "FEATURED": "Featured",
+        "BADGE": "Badge",
+        "BADGE_NONE": "No badge",
+        "ORDER": "Display order",
+        "CTA": "Button label",
+        "CTA_CUSTOM": "Custom button text"
+      },
+      "STATUS": {
+        "ALL": "All",
+        "ACTIVE": "Active",
+        "INACTIVE": "Hidden"
+      },
+      "TYPES": {
+        "ALL": "All types",
+        "ONLINE_COACHING": "Online coaching",
+        "NUTRITION": "Nutrition",
+        "WORKOUT": "Workout",
+        "PERSONAL_TRAINING": "Personal training",
+        "CONSULTATION": "Consultation",
+        "TRANSFORMATION": "Transformation",
+        "CUSTOM": "Custom"
+      },
+      "BADGES": {
+        "RECOMMENDED": "Recommended",
+        "MOST_POPULAR": "Most popular",
+        "BEST_VALUE": "Best value",
+        "NEW": "New",
+        "LIMITED": "Limited",
+        "CUSTOM": "Custom"
+      },
+      "DURATION": {
+        "DAY": { "ONE": "{{value}} day", "MANY": "{{value}} days" },
+        "WEEK": { "ONE": "{{value}} week", "MANY": "{{value}} weeks" },
+        "MONTH": { "ONE": "{{value}} month", "MANY": "{{value}} months" },
+        "YEAR": { "ONE": "{{value}} year", "MANY": "{{value}} years" },
+        "UNIT": { "DAY": "Days", "WEEK": "Weeks", "MONTH": "Months", "YEAR": "Years" }
+      },
+      "BILLING": {
+        "ONE_TIME": "One-time payment",
+        "RECURRING": "Recurring"
+      },
+      "CTA": {
+        "SUBSCRIBE_NOW": "Subscribe now",
+        "GET_STARTED": "Get started",
+        "JOIN_NOW": "Join now",
+        "START_COACHING": "Start coaching",
+        "CHOOSE_PLAN": "Choose plan",
+        "CUSTOM": "Custom text"
+      },
+      "VALIDATION": {
+        "NAME": "Enter a plan name.",
+        "SLUG": "Enter a web address.",
+        "DESCRIPTION": "Enter a short description.",
+        "FEATURE_TITLE": "Enter a feature.",
+        "PRICE": "Price must be greater than 0.",
+        "DURATION": "Duration must be greater than 0.",
+        "COMPARE": "Compare-at price must be higher than the selling price.",
+        "PRICING_REQUIRED": "Add at least one valid pricing option.",
+        "FORM": "Complete the required fields before saving."
+      }
+    },
+    "PAYMENTS": {
+      "EYEBROW": "Subscriptions",
+      "TITLE": "Payment methods",
+      "LEAD": "Add the ways customers can pay you. These are instructions, not automatic payments.",
+      "ADD": "Add payment method",
+      "BACK": "Back to payment methods",
+      "CREATE_TITLE": "New payment method",
+      "EDIT_TITLE": "Edit payment method",
+      "EDITOR_LEAD": "Choose a type, add the details customers need, then preview how it will look.",
+      "SEARCH": "Search",
+      "SEARCH_PLACEHOLDER": "Search by name or details",
+      "FILTER_STATUS": "Status",
+      "FILTER_TYPE": "Type",
+      "SORT": "Sort",
+      "SORT_UPDATED": "Last updated",
+      "SORT_NAME": "Name",
+      "SORT_ORDER": "Display order",
+      "SORT_TYPE": "Type",
+      "LOADING": "Loading payment methods...",
+      "EMPTY": "No payment methods yet. Add the first way customers can pay.",
+      "SAVE": "Save payment method",
+      "SAVING": "Saving...",
+      "SAVED": "Payment method saved.",
+      "EDIT": "Edit",
+      "DUPLICATE": "Duplicate",
+      "ACTIVATE": "Activate",
+      "DEACTIVATE": "Deactivate",
+      "DELETE": "Remove",
+      "CANCEL": "Cancel",
+      "NEXT": "Next",
+      "PREVIOUS": "Back",
+      "MOVE_UP": "Up",
+      "MOVE_DOWN": "Down",
+      "COPY_SUFFIX": "Copy",
+      "DUPLICATED": "A copy was created and kept inactive.",
+      "DELETED": "Payment method hidden. Existing subscription records will still make sense later.",
+      "DELETE_CONFIRM": "Hide this payment method? It will no longer appear to customers. Past subscriptions stay unchanged.",
+      "ERROR_SAVE": "Could not save right now. Try again.",
+      "ERROR_QR": "Could not use that image. Try a PNG or JPG under 12 MB.",
+      "UPDATED": "Updated",
+      "ORDER_LABEL": "Order {{order}}",
+      "LIVE_PREVIEW": "Customer preview",
+      "STEPS": {
+        "ARIA": "Payment method builder steps",
+        "1": "Type",
+        "2": "Basics",
+        "3": "Details"
+      },
+      "TYPE_STEP": {
+        "TITLE": "Payment method type",
+        "LEAD": "Pick the closest category. You can still customize the name and details."
+      },
+      "TYPE_HINTS": {
+        "INSTAPAY": "Username, link, or QR",
+        "BANK_TRANSFER": "Bank account details",
+        "MOBILE_WALLET": "Wallet number and provider",
+        "PAYMENT_LINK": "Any payment URL",
+        "PAYPAL": "Email or PayPal link",
+        "CASH": "In person or by appointment",
+        "CUSTOM": "Your own fields and instructions"
+      },
+      "BASIC": {
+        "TITLE": "Basic information",
+        "LEAD": "This is the name customers will see when they subscribe.",
+        "NAME": "Display name",
+        "DESCRIPTION": "Short description",
+        "ACTIVE": "Show this method to customers",
+        "FEATURED": "Featured",
+        "ORDER": "Display order"
+      },
+      "DETAILS": {
+        "TITLE": "Payment details",
+        "LEAD": "Only fill what your customers need. Extra fields can stay empty."
+      },
+      "FIELDS": {
+        "USERNAME": "Username",
+        "LINK": "Payment link",
+        "ACCOUNT_NAME": "Account holder name",
+        "BANK_NAME": "Bank name",
+        "ACCOUNT_NUMBER": "Account number",
+        "IBAN": "IBAN",
+        "SWIFT": "SWIFT / BIC",
+        "BRANCH": "Branch",
+        "PROVIDER": "Provider name",
+        "PROVIDER_HINT": "Suggested wallets. You can type any provider.",
+        "PHONE": "Phone number",
+        "URL": "Payment URL",
+        "EMAIL": "Email",
+        "LOCATION": "Location",
+        "AVAILABILITY": "Availability / appointment notes",
+        "CONTACT": "Contact information",
+        "INSTRUCTIONS": "Payment instructions",
+        "QR": "QR code",
+        "QR_HELP": "Optional. The image is compressed before saving.",
+        "QR_UPLOADING": "Preparing image...",
+        "QR_REMOVE": "Remove QR code"
+      },
+      "CUSTOM_FIELDS": {
+        "TITLE": "Custom fields",
+        "ADD": "Add field",
+        "EMPTY": "Add labeled details such as an account number or recipient name.",
+        "LABEL": "Field label",
+        "VALUE": "Field value",
+        "REMOVE": "Remove"
+      },
+      "WALLETS": {
+        "VODAFONE_CASH": "Vodafone Cash",
+        "ORANGE_CASH": "Orange Cash",
+        "ETISALAT_CASH": "Etisalat Cash",
+        "WE_PAY": "WE Pay",
+        "STC_PAY": "STC Pay",
+        "OTHER": "Other"
+      },
+      "STATUS": {
+        "ALL": "All",
+        "ACTIVE": "Active",
+        "INACTIVE": "Hidden",
+        "FEATURED": "Featured"
+      },
+      "TYPES": {
+        "ALL": "All types",
+        "INSTAPAY": "Instapay",
+        "BANK_TRANSFER": "Bank transfer",
+        "MOBILE_WALLET": "Mobile wallet",
+        "PAYMENT_LINK": "Payment link",
+        "PAYPAL": "PayPal",
+        "CASH": "Cash",
+        "CUSTOM": "Other"
+      },
+      "VALIDATION": {
+        "NAME": "Enter a display name.",
+        "INSTAPAY": "Add an Instapay username or a valid payment link.",
+        "BANK_REQUIRED": "Enter the bank name and account holder name.",
+        "BANK_IDENTIFIER": "Enter an account number or IBAN.",
+        "WALLET_PROVIDER": "Enter the wallet provider.",
+        "WALLET_PHONE": "Enter a valid phone number.",
+        "PAYMENT_URL": "Enter a valid payment URL.",
+        "PAYPAL": "Enter a valid email or PayPal payment link.",
+        "CASH": "Add a location, contact, availability note, or instructions.",
+        "CUSTOM": "Add at least one labeled field, a link, or instructions.",
+        "CUSTOM_LABEL": "Every custom field with a value needs a label.",
+        "FORM": "Complete the required fields before saving."
+      }
+    },
+    "TRANSFORMATIONS": {
+      "EYEBROW": "Results gallery",
+      "TITLE": "Client Transformations",
+      "LEAD": "Show your clients' progress and results with professional before & after transformations.",
+      "ADD": "+ Add Transformation",
+      "ADD_TITLE": "Add transformation",
+      "EDIT_TITLE": "Edit transformation",
+      "SAVE": "Save",
+      "SAVING": "Saving...",
+      "CANCEL": "Cancel",
+      "SAVED": "Transformation saved.",
+      "UPDATED": "Transformation updated.",
+      "DELETED": "Transformation deleted.",
+      "LOADING": "Loading transformations...",
+      "OPTIMIZING": "Optimizing images...",
+      "BEFORE": "Before",
+      "AFTER": "After",
+      "VISIBLE": "Visible",
+      "HIDDEN": "Hidden",
+      "SHOW_PUBLIC": "Show on the public website",
+      "REMAINING": "{{count}} remaining",
+      "STATS": {
+        "ARIA": "Transformation totals",
+        "TOTAL": "Total",
+        "VISIBLE": "Visible",
+        "HIDDEN": "Hidden",
+        "REMAINING": "Remaining"
+      },
+      "UPLOAD": {
+        "BEFORE": "Before image",
+        "AFTER": "After image",
+        "BEFORE_HINT": "Upload before image",
+        "AFTER_HINT": "Upload after image",
+        "TYPES": "JPG, PNG, or WEBP. Up to 10 MB.",
+        "REPLACE": "Click to replace",
+        "REMOVE": "Remove"
+      },
+      "ACTIONS": {
+        "MENU": "Transformation actions",
+        "EDIT": "Edit",
+        "DELETE": "Delete",
+        "HIDE": "Hide",
+        "SHOW": "Show",
+        "MOVE_UP": "Move up",
+        "MOVE_DOWN": "Move down",
+        "REORDER": "Drag to reorder"
+      },
+      "EMPTY": {
+        "TITLE": "No transformations yet",
+        "LEAD": "Show your clients' progress by adding your first before & after transformation."
+      },
+      "LIMIT": {
+        "REACHED": "You have reached the maximum of 30 transformations.",
+        "MESSAGE": "You've reached your 30 transformation limit. You can edit or remove existing transformations to add new ones."
+      },
+      "VALIDATION": {
+        "BOTH_IMAGES": "Upload both a before image and an after image.",
+        "BEFORE": "Upload a before image.",
+        "AFTER": "Upload an after image.",
+        "FORMAT": "Use a JPG, JPEG, PNG, or WEBP image. GIF and SVG files are not supported.",
+        "INVALID": "That file could not be read as an image. Try another photo.",
+        "SOURCE_SIZE": "That image is larger than 10 MB. Choose a smaller file.",
+        "FINAL_SIZE": "That image is still too large after optimization. Try a simpler photo."
+      },
+      "ERRORS": {
+        "READ": "The image could not be read. Try again.",
+        "COMPRESS": "The image could not be optimized. Try another photo.",
+        "PERMISSION": "You do not have permission to change transformations.",
+        "SAVE": "Could not save this transformation. Try again.",
+        "NETWORK": "A network problem stopped the save. Try again."
+      },
+      "CONFIRMATION": {
+        "TITLE": "Delete Transformation?",
+        "LEAD": "This transformation will be removed from your public results gallery."
+      }
+    },
+    "SUBSCRIPTIONS": {
+      "EYEBROW": "Customers",
+      "TITLE": "Subscriptions",
+      "LEAD": "Review payment requests, approve coaching, and keep every historical price intact.",
+      "DETAILS_TITLE": "Subscription details",
+      "BACK": "Back to subscriptions",
+      "OPEN": "Open",
+      "EXPORT": "Export CSV",
+      "SEARCH": "Search",
+      "SEARCH_PLACEHOLDER": "Name, email, phone, or reference",
+      "FILTER_STATUS": "Status",
+      "FILTER_PAYMENT": "Payment",
+      "FILTER_PLAN": "Plan",
+      "FILTER_METHOD": "Payment method",
+      "ALL_PLANS": "All plans",
+      "ALL_METHODS": "All methods",
+      "SORT": "Sort",
+      "SORT_NEWEST": "Newest",
+      "SORT_OLDEST": "Oldest",
+      "SORT_UPDATED": "Recently updated",
+      "SORT_AMOUNT_DESC": "Highest amount",
+      "SORT_AMOUNT_ASC": "Lowest amount",
+      "SORT_EXPIRING": "Expiring soon",
+      "LOADING": "Loading subscriptions...",
+      "EMPTY": "No subscriptions match these filters.",
+      "SUBMITTED": "Submitted",
+      "UPDATED": "Updated",
+      "REASON": "Reason",
+      "NOTES_SAVED": "Private note saved.",
+      "ACTION_DONE": "Subscription updated.",
+      "ERROR_SAVE": "Could not update this subscription. Try again.",
+      "KPI": {
+        "PENDING": "Pending review",
+        "ACTIVE": "Active",
+        "APPROVED": "Approved",
+        "REJECTED": "Rejected",
+        "EXPIRING": "Expiring soon"
+      },
+      "STATUS": {
+        "ALL": "All",
+        "PENDING": "Pending",
+        "ACTIVE": "Active",
+        "REJECTED": "Rejected",
+        "CANCELLED": "Cancelled",
+        "EXPIRED": "Expired",
+        "PAYMENT_RESUBMISSION_REQUIRED": "Proof needed"
+      },
+      "PAYMENT_STATUS": {
+        "ALL": "All",
+        "PENDING": "Pending",
+        "SUBMITTED": "Submitted",
+        "VERIFIED": "Verified",
+        "REJECTED": "Rejected"
+      },
+      "ACTIONS": {
+        "APPROVE": "Approve",
+        "REJECT": "Reject",
+        "RESUBMIT": "Request new proof",
+        "CANCEL": "Cancel",
+        "EXPIRE": "Mark expired"
+      },
+      "CONFIRM": {
+        "APPROVE": "Approve this subscription and start the coaching period?",
+        "REJECT": "Reject this subscription? Add a reason the customer can understand.",
+        "RESUBMIT": "Ask the customer to send payment proof again?",
+        "CANCEL": "Cancel this subscription?",
+        "EXPIRE": "Mark this subscription as expired?",
+        "YES": "Confirm",
+        "NO": "Keep it"
+      },
+      "DETAILS": {
+        "HEADER": "Overview",
+        "CUSTOMER": "Customer",
+        "PLAN": "Selected plan",
+        "PAYMENT": "Payment",
+        "INTAKE": "Intake answers",
+        "INTAKE_EMPTY": "No extra answers were provided.",
+        "CUSTOMER_NOTES": "Customer notes",
+        "NOTES": "Private admin notes",
+        "NOTES_HELP": "Only you can see this. It is never shown to the customer.",
+        "SAVE_NOTES": "Save notes",
+        "HISTORY": "Status history",
+        "START": "Start date",
+        "END": "End date",
+        "COMPARE": "Original price",
+        "BILLING": "Billing",
+        "PROOF": "Payment proof",
+        "OPEN_PROOF": "Open file",
+        "PROOF_HISTORY": "Previous proof files",
+        "REJECTION": "Rejection reason",
+        "RESUBMISSION": "Resubmission reason"
+      },
+      "ACTOR": {
+        "CUSTOMER": "Customer",
+        "ADMIN": "Coach"
+      },
+      "VALIDATION": {
+        "REASON": "Add a reason before continuing.",
+        "PROOF": "Payment proof is required before approval.",
+        "STATE": "This action is not available for the current status."
+      }
+    },
+    "REPORTS": {
+      "EYEBROW": "Business",
+      "TITLE": "Reports",
+      "LEAD": "See revenue, plan performance, and what needs your attention — based only on real subscription data.",
+      "EXPORT": "Export CSV",
+      "OVERVIEW": {
+        "REVENUE": "Total revenue",
+        "NEW": "New subscriptions",
+        "ACTIVE": "Active subscriptions",
+        "PENDING": "Pending reviews",
+        "EXPIRING": "Expiring soon",
+        "AVERAGE": "Average subscription value"
+      },
+      "REVENUE": {
+        "TITLE": "Revenue",
+        "LEAD": "Verified payments only. Pending and rejected requests are not counted.",
+        "MIXED": "More than one currency appears in this period. Totals use the main currency only."
+      },
+      "SUBSCRIPTIONS": {
+        "TITLE": "Subscription performance",
+        "NEW": "New",
+        "APPROVED": "Approved",
+        "ACTIVE": "Active",
+        "PENDING": "Pending",
+        "REJECTED": "Rejected",
+        "CANCELLED": "Cancelled",
+        "EXPIRED": "Expired",
+        "RESUBMIT": "Resubmission"
+      },
+      "PLANS": {
+        "TITLE": "Plan performance",
+        "LEAD": "Counts use historical plan snapshots from each subscription.",
+        "PLAN": "Plan",
+        "SUBSCRIPTIONS": "Subscriptions",
+        "ACTIVE": "Active",
+        "REVENUE": "Revenue",
+        "SHARE": "Share",
+        "TOP_COUNT": "Most subscriptions",
+        "TOP_REVENUE": "Highest revenue"
+      },
+      "PRICING": {
+        "TITLE": "Pricing options",
+        "LEAD": "See which durations customers actually choose.",
+        "DURATION": "Duration"
+      },
+      "PAYMENTS": {
+        "TITLE": "Payment methods",
+        "LEAD": "How customers paid, using the payment method stored with each subscription.",
+        "OPS_TITLE": "Pending work",
+        "PENDING": "Waiting for payment review",
+        "RESUBMIT": "Payment resubmission requested",
+        "RECENT": "Submitted in the last 7 days",
+        "REVIEW_TIME": "Average review time",
+        "REVIEW_VALUE": "{{hours}}h {{minutes}}m",
+        "REVIEW_NOW": "Review now",
+        "METHOD": "Method",
+        "COUNT": "Subscriptions",
+        "VERIFIED": "Verified",
+        "PENDING_SHORT": "Pending",
+        "REJECTED": "Rejected",
+        "RATE": "Payment verification rate",
+        "RATE_NA": "Not enough data",
+        "REASONS": "Top rejection reasons"
+      },
+      "CUSTOMERS": {
+        "TITLE": "Customers",
+        "TOTAL": "Total customers",
+        "NEW": "New this period",
+        "RETURNING": "Returning this period"
+      },
+      "EXPIRING": {
+        "TITLE": "Active and expiring",
+        "LEAD": "These numbers are current, not limited to the selected date range.",
+        "ACTIVE": "Active now",
+        "SOON7": "Expiring in 7 days",
+        "SOON30": "Expiring in 30 days",
+        "EXPIRED": "Expired",
+        "VIEW_ALL": "View all",
+        "VIEW_7": "View expiring subscriptions",
+        "CUSTOMER": "Customer",
+        "END": "End date",
+        "DAYS": "Days left",
+        "DAYS_VALUE": "{{count}} days",
+        "EMPTY": "No active subscriptions are expiring in the next 30 days."
+      },
+      "ACTIVITY": {
+        "TITLE": "Recent activity",
+        "EMPTY": "No subscription activity yet."
+      },
+      "INSIGHTS": {
+        "TITLE": "Business insights",
+        "TOP_REVENUE_PLAN": "{{plan}} generated the highest verified revenue this period ({{amount}} {{currency}}).",
+        "TOP_PAYMENT": "Most customers currently prefer {{method}} ({{count}} subscriptions).",
+        "EXPIRING": "You have {{count}} active subscriptions expiring within the next 7 days.",
+        "GROWTH_UP": "Subscription requests increased {{percent}}% compared with the previous period.",
+        "GROWTH_DOWN": "Subscription requests decreased {{percent}}% compared with the previous period.",
+        "TOP_PRICING": "{{plan}} is currently your most requested pricing option ({{count}} subscriptions).",
+        "PENDING": "You have {{count}} subscriptions waiting for payment review."
+      },
+      "FILTERS": {
+        "ARIA": "Report date range",
+        "TODAY": "Today",
+        "LAST_7_DAYS": "Last 7 days",
+        "LAST_30_DAYS": "Last 30 days",
+        "LAST_3_MONTHS": "Last 3 months",
+        "LAST_6_MONTHS": "Last 6 months",
+        "THIS_YEAR": "This year",
+        "PREVIOUS_YEAR": "Previous year",
+        "CUSTOM": "Custom range",
+        "FROM": "From",
+        "TO": "To"
+      },
+      "EMPTY": {
+        "TITLE": "Not enough data yet",
+        "LEAD": "Your reports will become more useful as customers subscribe to your plans.",
+        "PERIOD": "No subscription activity in this date range."
+      },
+      "ERRORS": {
+        "LOAD": "Unable to load reports.",
+        "RETRY": "Try again"
+      }
+    }
+  },
+  "PUBLIC": {
+    "PLANS": {
+      "EYEBROW": "Coaching",
+      "TITLE": "Choose the plan that fits your next chapter.",
+      "LEAD": "Every plan can include more than one duration. Pick the option that matches your pace.",
+      "LOADING": "Loading plans...",
+      "EMPTY": "Plans will appear here once the coach publishes them."
+    },
+    "TRANSFORMATIONS": {
+      "EYEBROW": "Results",
+      "TITLE": "Before and after transformations.",
+      "LEAD": "Real client progress, shown with the same care that goes into the coaching.",
+      "LOADING": "Loading transformations...",
+      "EMPTY": "Transformations will appear here once the coach publishes them.",
+      "BEFORE": "Before",
+      "AFTER": "After",
+      "CTA_LEAD": "Ready to start your own transformation?",
+      "CTA": "View coaching plans"
+    },
+    "SUBSCRIBE": {
+      "EYEBROW": "Subscribe",
+      "TITLE": "Start coaching in a few clear steps.",
+      "LEAD": "Choose a plan, send the payment, and upload your proof. The coach reviews every request personally.",
+      "BACK": "Back",
+      "NEXT": "Continue",
+      "SUBMIT": "Submit subscription request",
+      "SUBMITTING": "Submitting...",
+      "LOADING_PLANS": "Loading plans...",
+      "LOADING_PAYMENTS": "Loading payment methods...",
+      "EMPTY_PLANS": "No plans are available to subscribe to yet.",
+      "EMPTY_PAYMENTS": "No payment methods are available yet.",
+      "STEPS": {
+        "ARIA": "Subscription steps",
+        "1": "Plan",
+        "2": "Pricing",
+        "3": "You",
+        "4": "Details",
+        "5": "Payment",
+        "6": "Proof",
+        "7": "Review"
+      },
+      "PLAN": {
+        "TITLE": "Choose a plan",
+        "LEAD": "Pick the coaching offer that matches your goal."
+      },
+      "PRICING": {
+        "TITLE": "Choose a duration",
+        "LEAD": "The price is fixed. You cannot type a different amount."
+      },
+      "CUSTOMER": {
+        "TITLE": "Your information",
+        "LEAD": "We only ask for what the coach needs to reach you.",
+        "NAME": "Full name",
+        "EMAIL": "Email",
+        "PHONE": "Phone number",
+        "COUNTRY": "Country",
+        "CITY": "City",
+        "DOB": "Date of birth",
+        "CONTACT_LABEL": "Preferred contact",
+        "CONTACT": {
+          "WHATSAPP": "WhatsApp",
+          "PHONE": "Phone",
+          "EMAIL": "Email"
+        }
+      },
+      "INTAKE": {
+        "TITLE": "A little more about you",
+        "LEAD": "Optional. This helps the coach prepare, and you can skip anything.",
+        "OPTIONAL": "Prefer not to say",
+        "GOAL": "Main goal",
+        "EXPERIENCE": "Training experience",
+        "FREQUENCY": "Training days each week",
+        "NOTES": "Anything else the coach should know?",
+        "NOTES_HELP": "Injuries, schedule, or equipment at home.",
+        "GOALS": {
+          "LOSE_WEIGHT": "Lose weight",
+          "BUILD_MUSCLE": "Build muscle",
+          "FITNESS": "General fitness",
+          "PERFORMANCE": "Performance",
+          "OTHER": "Other"
+        },
+        "EXPERIENCE_LEVELS": {
+          "BEGINNER": "Beginner",
+          "INTERMEDIATE": "Intermediate",
+          "ADVANCED": "Advanced"
+        },
+        "FREQUENCIES": {
+          "TWO": "1–2 days",
+          "THREE": "3 days",
+          "FOUR": "4 days",
+          "FIVE": "5 or more"
+        }
+      },
+      "PAYMENT": {
+        "TITLE": "How will you pay?",
+        "LEAD": "These are manual payment instructions. Choose the method you will use."
+      },
+      "PROOF": {
+        "TITLE": "Pay, then upload proof",
+        "AMOUNT": "Amount to pay",
+        "SEND": "Send the exact amount using {{method}}.",
+        "UPLOAD": "Upload your payment receipt",
+        "UPLOAD_OPTIONAL": "Upload a receipt if you have one",
+        "CHOOSE": "Choose file",
+        "REMOVE": "Remove file",
+        "PREVIEW": "Payment proof preview",
+        "UPLOADING": "Uploading… {{value}}%"
+      },
+      "REVIEW": {
+        "TITLE": "Review your request",
+        "LEAD": "Make sure the plan, price, and contact details are correct.",
+        "PLAN": "Plan",
+        "DURATION": "Duration",
+        "PRICE": "Price",
+        "PAYMENT": "Payment method",
+        "CUSTOMER": "Customer"
+      },
+      "SUMMARY": {
+        "TITLE": "Your subscription",
+        "PLAN_EMPTY": "No plan selected yet",
+        "PAYMENT_EMPTY": "No payment method yet"
+      },
+      "SUCCESS": {
+        "EYEBROW": "Request received",
+        "TITLE": "Your subscription request was submitted.",
+        "LEAD": "The coach will review your payment and contact you shortly.",
+        "REFERENCE": "Reference:",
+        "STATUS": "Current status",
+        "NEXT": "Keep this reference. You can use it if you need to follow up.",
+        "BACK": "Back to plans",
+        "LOADING": "Loading your request...",
+        "MISSING": "We could not find that subscription reference.",
+        "START": "Start a new request"
+      },
+      "ERRORS": {
+        "PLAN": "Choose a plan to continue.",
+        "PRICING": "Choose a pricing option.",
+        "CUSTOMER": "Enter your name, a valid email, and a valid phone number.",
+        "INTAKE": "Complete the required questions.",
+        "PAYMENT": "Choose a payment method.",
+        "PROOF": "Upload a payment receipt to continue.",
+        "FORM": "Complete the required steps before submitting.",
+        "SAVE": "Could not submit right now. Try again.",
+        "PLAN_INACTIVE": "This plan is no longer available.",
+        "PRICING_INACTIVE": "This pricing option is no longer available.",
+        "PAYMENT_INACTIVE": "This payment method is no longer available.",
+        "INVALID_FILE": "Use a JPG, PNG, or WEBP image.",
+        "FILE_TOO_LARGE": "That image is too large. Try a smaller photo under 6 MB."
+      }
+    }
+  }
+}
