@@ -7,11 +7,22 @@
   <script>
     (function () {
       var base = document.querySelector('base');
-      if (!base) {
-        return;
+      if (base) {
+        var onGitHubPages = /\.github\.io$/i.test(location.hostname);
+        base.setAttribute('href', onGitHubPages ? '/coach/' : '/');
       }
-      var onGitHubPages = /\.github\.io$/i.test(location.hostname);
-      base.setAttribute('href', onGitHubPages ? '/coach/' : '/');
+
+      var locationRef = window.location;
+      if (locationRef.search[1] === '/') {
+        var restored = locationRef.search.slice(1).split('&').map(function (part) {
+          return part.replace(/~and~/g, '&');
+        }).join('?');
+        window.history.replaceState(
+          null,
+          '',
+          locationRef.pathname.slice(0, -1) + restored + locationRef.hash
+        );
+      }
     })();
   </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
