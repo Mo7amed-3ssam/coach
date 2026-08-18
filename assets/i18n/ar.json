@@ -1,9 +1,15 @@
 {
-  "BRAND": { "NAME": "كوتش فلو" },
+  "BRAND": { "NAME": "M E" },
   "NAV": { "HOME": "الرئيسية", "ABOUT": "عن الكابتن", "TRANSFORMATIONS": "النتائج", "PLANS": "البرامج", "CALCULATOR": "احسب سعراتك", "CONTACT": "تواصل معنا", "LANGUAGE": "اللغة", "TOGGLE_MENU": "فتح القائمة", "CLOSE_MENU": "إغلاق القائمة", "ENGLISH_SHORT": "EN", "ARABIC_SHORT": "ع" },
   "CTA": { "START": "ابدأ رحلتك", "EXPLORE_PLANS": "استكشف التدريب", "MEET_COACH": "تعرّف على مدربك", "LEARN_MORE": "اعرف المزيد", "VIEW_RESULTS": "شاهد النتائج", "VIEW_PLAN": "شاهد الباقة" },
   "FOOTER": { "DESCRIPTION": "تجربة تدريب أونلاين مركزة، مصممة لتقدم مستدام يناسبك.", "EXPLORE": "استكشف", "CONNECT": "تواصل", "INSTAGRAM": "إنستغرام", "EMAIL": "راسلنا", "CTA_TEXT": "مستعد لاتخاذ خطوتك التالية؟", "RIGHTS": "جميع الحقوق محفوظة.", "PRIVACY": "الخصوصية", "TERMS": "الشروط" },
   "COMMON": { "COMING_SOON": "هذه الصفحة قيد الإعداد.", "BACK_HOME": "العودة للرئيسية", "TO_TOP": "أعلى", "WHATSAPP": "واتساب" },
+  "LOADING": {
+    "ARIA": "الموقع قيد التجهيز",
+    "EYEBROW": "تدريب أونلاين",
+    "TAGLINE": "تحولك القادم يبدأ الآن.",
+    "STATUS": "جاري تشغيل الجلسة"
+  },
   "CREDIT": { "MADE_WITH": "صُنع", "BY": "بواسطة", "ACME_CODE": "أكمي كود" },
   "CALORIE_CALCULATOR": {
     "SEO": {

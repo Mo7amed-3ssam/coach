@@ -1,9 +1,15 @@
 {
-  "BRAND": { "NAME": "CoachFlow" },
+  "BRAND": { "NAME": "M E" },
   "NAV": { "HOME": "Home", "ABOUT": "About", "TRANSFORMATIONS": "Results", "PLANS": "Programs", "CALCULATOR": "Calories", "CONTACT": "Contact", "LANGUAGE": "Language", "TOGGLE_MENU": "Toggle navigation", "CLOSE_MENU": "Close menu", "ENGLISH_SHORT": "EN", "ARABIC_SHORT": "AR" },
   "CTA": { "START": "Start your journey", "EXPLORE_PLANS": "Explore coaching", "MEET_COACH": "Meet your coach", "LEARN_MORE": "Learn more", "VIEW_RESULTS": "View results", "VIEW_PLAN": "View plan" },
   "FOOTER": { "DESCRIPTION": "A focused online coaching experience built around sustainable progress.", "EXPLORE": "Explore", "CONNECT": "Connect", "INSTAGRAM": "Instagram", "EMAIL": "Email us", "CTA_TEXT": "Ready to make your next move?", "RIGHTS": "All rights reserved.", "PRIVACY": "Privacy", "TERMS": "Terms" },
   "COMMON": { "COMING_SOON": "This page is being prepared.", "BACK_HOME": "Back home", "TO_TOP": "Top", "WHATSAPP": "WhatsApp" },
+  "LOADING": {
+    "ARIA": "The site is getting ready",
+    "EYEBROW": "Online coaching",
+    "TAGLINE": "Your next transformation starts now.",
+    "STATUS": "Igniting session"
+  },
   "CREDIT": { "MADE_WITH": "Made with", "BY": "by", "ACME_CODE": "Acme Code" },
   "CALORIE_CALCULATOR": {
     "SEO": {
