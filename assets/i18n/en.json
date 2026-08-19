@@ -1196,7 +1196,12 @@
       "TITLE": "Choose the plan that fits your next chapter.",
       "LEAD": "Every plan can include more than one duration. Pick the option that matches your pace.",
       "LOADING": "Loading plans...",
-      "EMPTY": "Plans will appear here once the coach publishes them."
+      "EMPTY": "Plans will appear here once the coach publishes them.",
+      "CTA_EYEBROW": "Next step",
+      "CTA_TITLE": "Ready to start your journey?",
+      "CTA_LEAD": "Pick a program, send the details, and the coach builds the plan around you.",
+      "CTA_PRIMARY": "Start now",
+      "CTA_SECONDARY": "Calculate your calories free"
     },
     "TRANSFORMATIONS": {
       "EYEBROW": "Results",
@@ -1207,6 +1212,7 @@
       "BEFORE": "Before",
       "AFTER": "After",
       "CTA_LEAD": "Ready to start your own transformation?",
+      "CTA_TITLE": "Your next chapter can look like this.",
       "CTA": "View coaching plans"
     },
     "SUBSCRIBE": {
